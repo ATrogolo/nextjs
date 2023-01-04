@@ -1,0 +1,19 @@
+.back {
+  position: absolute;
+  left: 90px;
+  top: 50px;
+}
+
+.commentsTitle {
+  padding-left: 20px;
+}
+
+.comments {
+  display: flex;
+  flex-wrap: wrap;
+
+  .comment {
+    max-width: 300px;
+    padding: 20px;
+  }
+}
